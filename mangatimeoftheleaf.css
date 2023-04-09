@@ -1,0 +1,95 @@
+h1,
+h2,
+h3,
+ul,
+ol,
+a {
+    color: rgb(0, 0, 0);
+}
+
+h1,
+h2,
+h3,
+a,
+ul,
+ol,
+p {
+font-family: 'Righteous', cursive;
+
+}
+
+h1,
+h2,
+h3,
+a,
+ul,
+ol {
+    text-decoration: none;
+}
+
+.class_webtoon {
+    background: linear-gradient(180deg, #000000, #fa9332);
+    color: rgb(255, 255, 255);
+    font-size: 1em
+}
+
+h2,
+h3 {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(180deg, #000000, #ffffff);
+    font-size: 2em
+}
+
+.encadrer {
+background-color: white ;
+}
+
+h1 {
+text-align: center;
+background: radial-gradient(circle, rgba(0,0,0,1) 20%, #fa9332 90%);
+margin: 0 !important;
+padding: 0 !important;
+}
+
+.COVER {
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    width: 10em;
+    height: 14em;
+    border: 0.1em solid rgb(255, 255, 255)
+}
+
+.line {
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    text-align: left;
+}
+
+img {
+    width: 5em;
+    height: 5em;
+}
+
+a:hover {
+    color: #ff5a30;
+}
+
+img:hover {
+    opacity: 0.7;
+}
+
+
+header,
+footer,
+nav {
+    background-color: #fa9332;
+}
+body {
+    padding: 0 ;
+    margin: 0 !important; 
+
+}
+
+main {
+    background-color: #ffffff;
+}
